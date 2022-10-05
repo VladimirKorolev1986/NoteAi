@@ -54,3 +54,5 @@ class UserModel(db.Model):
             return None  # invalid token
         user = UserModel.query.get(data['id'])
         return user
+
+    #test commit
